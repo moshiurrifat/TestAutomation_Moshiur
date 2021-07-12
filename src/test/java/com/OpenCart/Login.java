@@ -38,9 +38,6 @@ public class Login extends TestBase {
         WebElement LoginBtn= driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
         LoginBtn.click();
 
-
-
-
     }
 
 
