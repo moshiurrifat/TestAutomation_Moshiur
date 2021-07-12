@@ -21,6 +21,21 @@ public class Login extends TestBase {
 
         WebElement LoginBtn= driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
         LoginBtn.click();
+//yess no
+        String Exp_Title="My account";
+        String Act_Title= driver.getTitle();
+
+        if (Exp_Title.equals(Act_Title)){
+            System.out.println("passed valid data");
+
+            WebElement Logout= driver.findElement(By.linkText("Logout"));
+            Logout.click();
+        }
+        else{
+            System.out.println("failed,bug found");
+
+        }
+
 
         WebElement Logout= driver.findElement(By.linkText("Logout"));
         Logout.click();
@@ -37,6 +52,19 @@ public class Login extends TestBase {
 
         WebElement LoginBtn= driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
         LoginBtn.click();
+
+        String Exp_Title="My account";
+        String Act_Title= driver.getTitle();
+
+        if (!Exp_Title.equals(Act_Title)){
+            System.out.println("passed invalid data");
+
+
+        }
+        else{
+            System.out.println("failed, invalid data .bug found");
+
+        }
 
     }
 

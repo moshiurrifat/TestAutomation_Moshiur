@@ -8,6 +8,7 @@ public class Registration extends TestBase {
     public static void main(String[] args) {
         chromelaunch();
         Reg_001_Valid();
+        inputFieldValidationTest();
 
        // chromeClose();
 
@@ -41,5 +42,34 @@ public class Registration extends TestBase {
         WebElement Logout = driver.findElement(By.linkText("Logout"));
         Logout.click();
     }
+    public static void inputFieldValidationTest(){
+        WebElement Reg_Btn= driver.findElement(By.cssSelector(".btn-primary"));
+        WebElement fName = driver.findElement(By.id("input-firstname"));
+        fName.sendKeys("alijbfgaibvaoebrvaugjhdfgvjhdsgedfrbvsdfbvldjafbvjlhdabfvjdfbvjhfdbjadsoh");
+        Reg_Btn.click();
+        String Exp_message="";
+        String Act_message=driver.findElement(By.xpath("//*[@id=\"account\"]/div[2]/div/div")).getText();
+        if (Exp_message.equals(Act_message)){
+            System.out.println("fname validation passed");
+        }
+        else {
+            System.out.println("fname validation failed");
+
+        }
+    }
+    public boolean fName(){
+        WebElement Reg_Btn= driver.findElement(By.cssSelector(".btn-primary"));
+        WebElement fName = driver.findElement(By.id("input-firstname"));
+        fName.sendKeys("alijbfgaibvaoebrvaugjhdfgvjhdsgedfrbvsdfbvldjafbvjlhdabfvjdfbvjhfdbjadsoh");
+        Reg_Btn.click();
+        String Exp_message="";
+        String Act_message=driver.findElement(By.xpath("//*[@id=\"account\"]/div[2]/div/div")).getText();
+        if (Exp_message.equals(Act_message)){
+            System.out.println("fname validation passed");
+        }
+        return true;
+
+    }
+    
 
 }
