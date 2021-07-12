@@ -12,6 +12,7 @@ public class BrowserSize extends BrowserConfig{
         getScreenSize();
         chromeClose();
 
+
     }
     public static void chromeLaunch(){
         System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");
