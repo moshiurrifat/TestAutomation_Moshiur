@@ -4,14 +4,16 @@ import com.Base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.io.IOException;
+
 public class Login extends TestBase {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         chromelaunch();
         TC_001_Valid();
         TC_002_InValid();
         //chromeClose();
     }
-    public static void TC_001_Valid(){
+    public static void TC_001_Valid() throws IOException {
         driver.get("https://demo.opencart.com/index.php?route=account/login");
         WebElement Email= driver.findElement(By.id("input-email"));
         Email.sendKeys("user101@gmail.com");
@@ -30,6 +32,7 @@ public class Login extends TestBase {
 
             WebElement Logout= driver.findElement(By.linkText("Logout"));
             Logout.click();
+            captureSs("logintest", ".png");
         }
         else{
             System.out.println("failed,bug found");
