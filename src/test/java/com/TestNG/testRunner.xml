@@ -4,7 +4,7 @@
     <test name="TestNG test">
         <classes>
 
-            <class name="com.TestNG.NGTestng"></class>
+            <class name="com.TestNG.RegTestNGAdvanced"></class>
 
         </classes>
 

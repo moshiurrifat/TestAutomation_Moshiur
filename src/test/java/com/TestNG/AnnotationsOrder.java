@@ -2,7 +2,7 @@ package com.TestNG;
 
 import org.testng.annotations.*;
 
-public class NGTestng {
+public class AnnotationsOrder {
 
     @BeforeSuite
     public void setup(){

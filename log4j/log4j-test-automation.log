@@ -1,4 +1,76 @@
-[INFO ] 2021-07-23 17:16:46.354 [main] Log - open login url
-[INFO ] 2021-07-23 17:16:46.416 [main] Log - type email
-[INFO ] 2021-07-23 17:16:46.456 [main] Log - type password
-[INFO ] 2021-07-23 17:16:49.668 [main] Log - click
+[INFO ] 2021-07-25 16:28:01.899 [main] Log - chrome launched
+[INFO ] 2021-07-25 16:28:04.123 [main] Log - login page opened
+[INFO ] 2021-07-25 16:28:04.205 [main] Log - type email
+[INFO ] 2021-07-25 16:28:04.249 [main] Log - type password
+[INFO ] 2021-07-25 16:28:08.755 [main] Log - click
+[INFO ] 2021-07-25 16:28:08.802 [main] Log - chrome closed
+[INFO ] 2021-07-25 16:46:39.026 [main] Log - chrome launched
+[INFO ] 2021-07-25 16:46:40.843 [main] Log - login page opened
+[INFO ] 2021-07-25 16:46:40.901 [main] Log - type email
+[INFO ] 2021-07-25 16:46:40.945 [main] Log - type password
+[INFO ] 2021-07-25 16:46:43.474 [main] Log - click
+[INFO ] 2021-07-25 16:46:46.387 [main] Log - chrome closed
+[INFO ] 2021-07-25 16:47:30.194 [main] Log - chrome launched
+[INFO ] 2021-07-25 16:47:31.933 [main] Log - login page opened
+[INFO ] 2021-07-25 16:47:31.992 [main] Log - type email
+[INFO ] 2021-07-25 16:47:32.033 [main] Log - type password
+[INFO ] 2021-07-25 16:47:34.574 [main] Log - click
+[INFO ] 2021-07-25 16:47:38.056 [main] Log - chrome closed
+[INFO ] 2021-07-25 16:50:37.285 [main] Log - chrome launched
+[INFO ] 2021-07-25 16:50:39.069 [main] Log - login page opened
+[INFO ] 2021-07-25 16:50:39.127 [main] Log - type email
+[INFO ] 2021-07-25 16:50:39.171 [main] Log - type password
+[INFO ] 2021-07-25 16:50:41.692 [main] Log - click
+[INFO ] 2021-07-25 16:50:45.398 [main] Log - chrome closed
+[INFO ] 2021-07-25 16:52:28.515 [main] Log - chrome launched
+[INFO ] 2021-07-25 16:52:30.293 [main] Log - login page opened
+[INFO ] 2021-07-25 16:52:30.362 [main] Log - type email
+[INFO ] 2021-07-25 16:52:30.407 [main] Log - type password
+[INFO ] 2021-07-25 16:52:33.046 [main] Log - click
+[INFO ] 2021-07-25 16:52:37.045 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:00:56.932 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:00:58.725 [main] Log - login page opened
+[INFO ] 2021-07-25 17:00:58.788 [main] Log - type email
+[INFO ] 2021-07-25 17:00:58.836 [main] Log - type password
+[INFO ] 2021-07-25 17:01:01.238 [main] Log - click
+[INFO ] 2021-07-25 17:01:04.917 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:02:53.425 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:02:55.132 [main] Log - login page opened
+[INFO ] 2021-07-25 17:02:55.193 [main] Log - Type Email
+[INFO ] 2021-07-25 17:02:55.231 [main] Log - Type Password
+[INFO ] 2021-07-25 17:02:57.610 [main] Log - Click on Login Button
+[INFO ] 2021-07-25 17:03:01.164 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:03:34.427 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:03:36.137 [main] Log - login page opened
+[INFO ] 2021-07-25 17:03:36.198 [main] Log - Type Email
+[INFO ] 2021-07-25 17:03:36.238 [main] Log - Type Password
+[INFO ] 2021-07-25 17:03:38.619 [main] Log - Click on Login Button
+[INFO ] 2021-07-25 17:03:42.157 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:25:14.859 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:25:17.215 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:25:18.914 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:25:18.992 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:26:48.481 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:26:51.231 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:26:54.054 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:26:56.414 [main] Log - Logout Successful
+[INFO ] 2021-07-25 17:26:57.697 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:27:23.372 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:27:37.979 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:27:40.545 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:27:42.334 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:27:42.401 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:28:03.652 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:28:05.987 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:28:08.887 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:28:11.240 [main] Log - Logout Successful
+[INFO ] 2021-07-25 17:28:12.708 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:31:29.738 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:31:31.480 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:31:33.145 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:31:33.215 [main] Log - chrome closed
+[INFO ] 2021-07-25 17:31:58.432 [main] Log - chrome launched
+[INFO ] 2021-07-25 17:32:00.129 [main] Log - reg page opened
+[INFO ] 2021-07-25 17:32:03.005 [main] Log - Registration Successful
+[INFO ] 2021-07-25 17:32:05.239 [main] Log - Logout Successful
+[INFO ] 2021-07-25 17:32:05.294 [main] Log - chrome closed
